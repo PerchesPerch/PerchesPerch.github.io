@@ -1,0 +1,437 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>句子成分 - 日本語文法</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../favicon.png">
+        <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../../theme/style.css">
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../../../日本語文法/01-封面与入门/02-资料简介.html">资料简介</a></li><li class="chapter-item expanded affix "><a href="../../../日本語文法/01-封面与入门/03-日语假名图表.html">日语假名图表</a></li><li class="chapter-item expanded affix "><a href="../../../日本語文法/01-封面与入门/04-如何学习日语语法.html">如何学习日语语法</a></li><li class="chapter-item expanded affix "><a href="../../../日本語文法/01-封面与入门/05-附录.html">附录</a></li><li class="chapter-item expanded affix "><a href="../../../日本語文法/02-基础语法体系/00-目录索引.html">目录索引</a></li><li class="chapter-item expanded affix "><li class="part-title">基础语法体系</li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/01-体言/1-体言.html"><strong aria-hidden="true">1.</strong> 体言</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/01-体言/1.1-名词.html"><strong aria-hidden="true">1.1.</strong> 名词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/01-体言/1.2-代名词.html"><strong aria-hidden="true">1.2.</strong> 代名词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/01-体言/1.3-数词.html"><strong aria-hidden="true">1.3.</strong> 数词</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2-用言-动词.html"><strong aria-hidden="true">2.</strong> 用言-动词</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.1-动词的活用.html"><strong aria-hidden="true">2.1.</strong> 动词的活用</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.2-动词的音便.html"><strong aria-hidden="true">2.2.</strong> 动词的音便</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3-动词活用形的用法.html"><strong aria-hidden="true">2.3.</strong> 动词活用形的用法</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3.1-未然形.html"><strong aria-hidden="true">2.3.1.</strong> 未然形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3.2-连用形.html"><strong aria-hidden="true">2.3.2.</strong> 连用形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3.3-终止形.html"><strong aria-hidden="true">2.3.3.</strong> 终止形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3.4-连体形.html"><strong aria-hidden="true">2.3.4.</strong> 连体形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3.5-假定形.html"><strong aria-hidden="true">2.3.5.</strong> 假定形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.3.6-命令形与命令句.html"><strong aria-hidden="true">2.3.6.</strong> 命令形与命令句</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.4-动词的体.html"><strong aria-hidden="true">2.4.</strong> 动词的体</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.5-动词的时.html"><strong aria-hidden="true">2.5.</strong> 动词的时</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.6-动词的态.html"><strong aria-hidden="true">2.6.</strong> 动词的态</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.6.1-被动态与被动句.html"><strong aria-hidden="true">2.6.1.</strong> 被动态与被动句</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.6.2-使动态与使动句.html"><strong aria-hidden="true">2.6.2.</strong> 使动态与使动句</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.6.3-可能态.html"><strong aria-hidden="true">2.6.3.</strong> 可能态</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.6.4-自然发生态.html"><strong aria-hidden="true">2.6.4.</strong> 自然发生态</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.7-授受动词.html"><strong aria-hidden="true">2.7.</strong> 授受动词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.8-表示其他意义的补助动词.html"><strong aria-hidden="true">2.8.</strong> 表示其他意义的补助动词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.9-动词的文语残留.html"><strong aria-hidden="true">2.9.</strong> 动词的文语残留</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/02-用言-动词/2.10-动词的分类.html"><strong aria-hidden="true">2.10.</strong> 动词的分类</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3-用言-形容词和形容动词.html"><strong aria-hidden="true">3.</strong> 用言-形容词和形容动词</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.1-形容词和形容动词的分类.html"><strong aria-hidden="true">3.1.</strong> 形容词和形容动词的分类</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2-形容词和形容动词的活用.html"><strong aria-hidden="true">3.2.</strong> 形容词和形容动词的活用</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.1-未然形.html"><strong aria-hidden="true">3.2.1.</strong> 未然形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.2-连用形（形容词）.html"><strong aria-hidden="true">3.2.2.</strong> 连用形（形容词）</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.3-连用形（形容动词）.html"><strong aria-hidden="true">3.2.3.</strong> 连用形（形容动词）</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.4-终止形.html"><strong aria-hidden="true">3.2.4.</strong> 终止形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.5-连体形.html"><strong aria-hidden="true">3.2.5.</strong> 连体形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.6-假定形.html"><strong aria-hidden="true">3.2.6.</strong> 假定形</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.2.7-词干.html"><strong aria-hidden="true">3.2.7.</strong> 词干</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.3-形容词的音便.html"><strong aria-hidden="true">3.3.</strong> 形容词的音便</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.4-补助形容词.html"><strong aria-hidden="true">3.4.</strong> 补助形容词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.5-特殊形容词、形容动词.html"><strong aria-hidden="true">3.5.</strong> 特殊形容词、形容动词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/03-用言-形容词和形容动词/3.6-形容词和形容动词的文语残留.html"><strong aria-hidden="true">3.6.</strong> 形容词和形容动词的文语残留</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/04-不变内容词/4-不变内容词.html"><strong aria-hidden="true">4.</strong> 不变内容词</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/04-不变内容词/4.1-连体词.html"><strong aria-hidden="true">4.1.</strong> 连体词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/04-不变内容词/4.2-副词.html"><strong aria-hidden="true">4.2.</strong> 副词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/04-不变内容词/4.3-接续词.html"><strong aria-hidden="true">4.3.</strong> 接续词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/04-不变内容词/4.4-感叹词.html"><strong aria-hidden="true">4.4.</strong> 感叹词</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5-助动词.html"><strong aria-hidden="true">5.</strong> 助动词</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.1-助动词的分类.html"><strong aria-hidden="true">5.1.</strong> 助动词的分类</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.2-助动词「れる／られる」.html"><strong aria-hidden="true">5.2.</strong> 助动词「れる／られる」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.3-使动助动词せる／させる（しめる）.html"><strong aria-hidden="true">5.3.</strong> 使动助动词せる／させる（しめる）</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.4-过去、完了助动词「た」.html"><strong aria-hidden="true">5.4.</strong> 过去、完了助动词「た」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.5-敬体助动词「ます」.html"><strong aria-hidden="true">5.5.</strong> 敬体助动词「ます」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.6-敬体助动词「です」.html"><strong aria-hidden="true">5.6.</strong> 敬体助动词「です」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.7-断定助动词「だ」「である」.html"><strong aria-hidden="true">5.7.</strong> 断定助动词「だ」「である」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.8-愿望助动词「たい」「たがる」.html"><strong aria-hidden="true">5.8.</strong> 愿望助动词「たい」「たがる」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.9-否定助动词「ない」「ぬ（ん）」.html"><strong aria-hidden="true">5.9.</strong> 否定助动词「ない」「ぬ（ん）」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.10-推测助动词「う／よう」.html"><strong aria-hidden="true">5.10.</strong> 推测助动词「う／よう」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.11-推测助动词「まい」.html"><strong aria-hidden="true">5.11.</strong> 推测助动词「まい」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.12-助动词「そうだ」.html"><strong aria-hidden="true">5.12.</strong> 助动词「そうだ」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.13-比喻助动词「ようだ」「みたいだ」.html"><strong aria-hidden="true">5.13.</strong> 比喻助动词「ようだ」「みたいだ」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.14-推测助动词「らしい」.html"><strong aria-hidden="true">5.14.</strong> 推测助动词「らしい」</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/05-助动词/5.15-助动词的文语残留.html"><strong aria-hidden="true">5.15.</strong> 助动词的文语残留</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6-助词.html"><strong aria-hidden="true">6.</strong> 助词</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6.1-格助词.html"><strong aria-hidden="true">6.1.</strong> 格助词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6.2-接续助词.html"><strong aria-hidden="true">6.2.</strong> 接续助词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6.3-并列助词.html"><strong aria-hidden="true">6.3.</strong> 并列助词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6.4-提示助词.html"><strong aria-hidden="true">6.4.</strong> 提示助词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6.5-副助词.html"><strong aria-hidden="true">6.5.</strong> 副助词</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/06-助词/6.6-语气助词.html"><strong aria-hidden="true">6.6.</strong> 语气助词</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/07-敬语/7-敬语.html"><strong aria-hidden="true">7.</strong> 敬语</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/07-敬语/7.1-尊敬语.html"><strong aria-hidden="true">7.1.</strong> 尊敬语</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/07-敬语/7.2-谦让语.html"><strong aria-hidden="true">7.2.</strong> 谦让语</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/07-敬语/7.3-郑重语和美化语.html"><strong aria-hidden="true">7.3.</strong> 郑重语和美化语</a></li></ol></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/08-句法/8-句法.html"><strong aria-hidden="true">8.</strong> 句法</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/08-句法/8.1-句素.html"><strong aria-hidden="true">8.1.</strong> 句素</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/08-句法/8.2-句子成分.html" class="active"><strong aria-hidden="true">8.2.</strong> 句子成分</a></li><li class="chapter-item expanded "><a href="../../../日本語文法/02-基础语法体系/08-句法/8.3-复合句.html"><strong aria-hidden="true">8.3.</strong> 复合句</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">日本語文法</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <!-- Page table of contents -->
+                        <div class="sidetoc"><nav class="pagetoc"></nav></div>
+
+                        <h2 id="82-句子成分"><a class="header" href="#82-句子成分">8.2-句子成分</a></h2>
+<h3 id="821-主语"><a class="header" href="#821-主语">8.2.1-主语</a></h3>
+<h4 id="8211-主语的场合"><a class="header" href="#8211-主语的场合">8.2.1.1-主语的场合</a></h4>
+<p>主语是表示句中主体的，如：判断的主体、存在的主体、状态的主体、动作的主体/受体/使动者等。</p>
+<p>另外还有一些特殊情况：</p>
+<ol>
+<li>对句中主体而言，其好恶、巧拙、可能、愿望等的对象。在这种句子中，有可能出现两个主语，主体为大主语，对象为小主语。</li>
+</ol>
+<blockquote>
+<p>私は<strong>絵が</strong>好きです。我喜欢画画。</p>
+</blockquote>
+<ol start="2">
+<li>不依个人的意志为转移的、自然而然地进入人的感官的对象。</li>
+</ol>
+<blockquote>
+<p>ああ、<strong>富士山が</strong>見える。啊，能看见富士山。</p>
+<p><strong>私の声が</strong>聞こえますか。听得见我的声音吗？</p>
+</blockquote>
+<ol start="3">
+<li>谈论的题目。此时谓语即使是动词，主语也不是这个动词的施事或受事，只是与这个动作所叙述的内容有关的一个题目而已。这种主语的助词一定是「は」。</li>
+</ol>
+<blockquote>
+<p><strong>新聞は</strong>、何をお読みですか。报纸您是读哪一种？</p>
+</blockquote>
+<h4 id="8212-主语的构成"><a class="header" href="#8212-主语的构成">8.2.1.2-主语的构成</a></h4>
+<p>主语的构成形式一般是：</p>
+<p>「体言、体言性词组＋が」；<br />
+「用言、用言性词组、句子＋形式名词＋が」。</p>
+<p>实际在许多情况下「が」都是被提示助词、副助词代替了的。如用「は」顶替时可起到提示主语以加强陈述、对比叙述等作用，用「も」顶替时可起到兼提追加等作用。定语从句中的主语，实际上是用「の」代替「が」。</p>
+<p>体言、体言性词组有时可直接构成主语，主要见于报刊标题和口语中，也可以认为是省略了「が」等助词。</p>
+<blockquote>
+<p><strong>確認の可能性</strong>低い。难以确认。</p>
+</blockquote>
+<p>日语句子在很多时候都可以省略主语，如表示季节、天气、时间等自然现象时。</p>
+<p>有很多学者不承认主语。主张不设主语的代表人物三上章将主语分成主格和主题，取消日语中主语的名称。</p>
+<h3 id="822-谓语"><a class="header" href="#822-谓语">8.2.2-谓语</a></h3>
+<p>谓语是对于主语的说明，是日语句子的核心。</p>
+<h4 id="8221-谓语的构成"><a class="header" href="#8221-谓语的构成">8.2.2.1-谓语的构成</a></h4>
+<ol>
+<li>
+<p>体言或体言性词组加断定助动词「だ」「である」「です」、推测助动词「らしい」、语气助词等。有时可以直接用体言结句。</p>
+</li>
+<li>
+<p>用言，以及其后的助动词、补助动词、补助形容词、补助惯用型、语气助词等。</p>
+</li>
+</ol>
+<h4 id="8222-并列谓语"><a class="header" href="#8222-并列谓语">8.2.2.2-并列谓语</a></h4>
+<p>一个句子中存在两个或更多的谓语时，只要这些谓语都是同前面的同一个主语搭配的，这个句子就仍是简单句。谓语之间存在如下关系：</p>
+<ol>
+<li>并列关系</li>
+</ol>
+<blockquote>
+<p>村の人たちは、<strong>本当にいい人ばかりで、私にとても親切にしてくれた。</strong><br />
+村民们的确都是好人，对我十分热情周到。</p>
+</blockquote>
+<ol start="2">
+<li>转折关系</li>
+</ol>
+<blockquote>
+<p>僕は<strong>行ってみたいのに、行きたくないと言っています。</strong><br />
+我想去，可嘴上说不想去。</p>
+</blockquote>
+<h4 id="8223-谓语的承接顺序"><a class="header" href="#8223-谓语的承接顺序">8.2.2.3-谓语的承接顺序</a></h4>
+<p><img src="../../%E9%99%84%E4%BB%B6/%E9%99%84%E4%BB%B6-08-%E5%8F%A5%E6%B3%95/%E8%B0%93%E8%AF%AD%E7%9A%84%E6%89%BF%E6%8E%A5%E9%A1%BA%E5%BA%8F.png" alt="谓语的承接顺序" /></p>
+<h3 id="824-补语"><a class="header" href="#824-补语">8.2.4-补语</a></h3>
+<p>补语是补充说明谓语的成分，它的主要语法作用是在动作行为的间接对象、间接结果、起讫、着落点、施受关系、时空条件等方面对动词、形容词、形容动词加以补充说明。</p>
+<p>补语是由体言或体言性词组加补格助词构成，但「と」「より」也可接在用言后。另外，要注意将补格助词和同形的其他助词区别开来。</p>
+<p>对于补语的界定存在很多争议，也有学者主张将补语归于状语。</p>
+<h3 id="825-状语"><a class="header" href="#825-状语">8.2.5-状语</a></h3>
+<p>状语（連用修飾語）是修饰限定用言、用言性词组乃至整个句子的成分。状语处于它所修饰限定的用言、用言性词组之前，但不一定紧靠被修饰语。</p>
+<p>状语的构成有如下几种：</p>
+<ol>
+<li>
+<p>副词，其中程度副词还可以构成情态副词的状语</p>
+</li>
+<li>
+<p>形容词、形容动词的连用形</p>
+</li>
+<li>
+<p>表示数量、时间、方位等意义的体言或体言性词组</p>
+</li>
+<li>
+<p>体言或体言性词组、用言或用言性词组后续副助词</p>
+</li>
+</ol>
+<blockquote>
+<p>会議は<strong>３時間ぐらい</strong>続いたようだ。会议大约持续了3个来小时。</p>
+</blockquote>
+<ol start="5">
+<li>体言或体言性词组、用言或用言性词组后附某些助动词、形式名词或惯用型</li>
+</ol>
+<blockquote>
+<p><strong>ずいぶん長いこと</strong>、お待たせいたしました。让您久等了。</p>
+</blockquote>
+<ol start="6">
+<li>用言或用言性词组后续接续助词</li>
+</ol>
+<blockquote>
+<p><strong>スピーチする前に、よく準備したので</strong>、上手くできました。<br />
+由于演讲前作了充分的准备，所以很成功。</p>
+</blockquote>
+<h3 id="826-定语"><a class="header" href="#826-定语">8.2.6-定语</a></h3>
+<p>定语（連体修飾語）是修饰限定体言的成分。定语一定处在它所修饰限定的体言之前。</p>
+<p>定语的构成有如下几种：</p>
+<ol>
+<li>
+<p>体言或体言性词组加连体格助词「の」</p>
+</li>
+<li>
+<p>连体词</p>
+</li>
+<li>
+<p>用言、用言性词组的连体形，或句末用活用词连体形的句子</p>
+</li>
+<li>
+<p>副词或副词加「の」</p>
+</li>
+<li>
+<p>体言+补格助词（除「に」外）+「の」</p>
+</li>
+</ol>
+<blockquote>
+<p><strong>月面上での</strong>重力は、地球上の約１／６である。<br />
+月球表面的重力约为地球上的1/6。</p>
+</blockquote>
+<ol start="6">
+<li>用言+「て」+「の」</li>
+</ol>
+<blockquote>
+<p><strong>安全作業についての</strong>知識　关于安全操作的知识</p>
+</blockquote>
+<ol start="7">
+<li>内容词+副助词+「の」</li>
+</ol>
+<blockquote>
+<p><strong>買ったばかりの</strong>時計を落としてしまった。把刚买的表弄丢了。</p>
+</blockquote>
+<h3 id="827-独立语"><a class="header" href="#827-独立语">8.2.7-独立语</a></h3>
+<p>独立语是独立于句子结构之外的成分，与主谓宾定状补没有直接关系。</p>
+<p>独立语由表示感叹、应答、招呼、接续、提示等意义的词语构成。</p>
+<blockquote>
+<p><strong>風よ</strong>、吹け。风啊，吹吧。</p>
+<p><strong>ですから</strong>明日は止めましょう。山へ行くのは。那明天登山的事就算了吧。</p>
+</blockquote>
+<p>广义上的独立语还包括提示语、同位语。</p>
+<h3 id="828-提示语"><a class="header" href="#828-提示语">8.2.8-提示语</a></h3>
+<p>当句中某一个词或词组需要特别加以强调时，可以把它从句中提到句首并加逗号，而在原来的位置上加入一个代名词等指示性词语。这个被提到句首的词或词组就叫提示语。</p>
+<p>用言性词组构成提示语时，可以不变形态，也可以后续形式名词，还可以使用破折号连接用言性词组与指示性词组。</p>
+<blockquote>
+<p><strong>不忍の池</strong>、詩人はこれを小西湖という。不忍池，诗人称它为小西湖。</p>
+</blockquote>
+<h3 id="829-同位语"><a class="header" href="#829-同位语">8.2.9-同位语</a></h3>
+<p>同位语指与句中另一个词语在语法上地位相同，内容上指同一事物的句子成分，一般由体言、体言性词组构成。</p>
+<p>与同位语相对的另一个词语称为本位语。同位语不是一种独立的句子成分，它和本位语一起构成一个句子成分。同位语可以在本位语之前，也可以在本位语之后。</p>
+<blockquote>
+<p><strong>我々日本人</strong>は特に注意しなければならない。我们日本人必须特别注意。</p>
+</blockquote>
+<p>同位语也可以不起限定、补充的作用，而起强调本位语的作用，这是一种复指。复指的同位语一般用「その～」「それ～」。</p>
+<blockquote>
+<p><strong>化学反応それ自体</strong>が新しい学問分野として生まれるようになった。<br />
+化学反应本身作为一个新的学科诞生了。</p>
+</blockquote>
+<h3 id="8210-插入语"><a class="header" href="#8210-插入语">8.2.10-插入语</a></h3>
+<p>插入语是为了对句中某一词或词组进行注释和补充说明而插入句子的特殊成分，与句内其他成分没有直接关系。</p>
+<blockquote>
+<p>その山には、<strong>行ってみたら分かることだが</strong>、珍しい植物が沢山生えている。<br />
+那座山上，去看一看就知道了，长着很多罕见的植物。</p>
+</blockquote>
+<h3 id="8211-句子成分的倒装"><a class="header" href="#8211-句子成分的倒装">8.2.11-句子成分的倒装</a></h3>
+<p>倒装以句素为单位，而不以词语为单位。</p>
+<p>日语的倒装常出现在以下3种场合：</p>
+<ol>
+<li>
+<p>为强调而提前某一成分</p>
+</li>
+<li>
+<p>口语习惯，将重要信息脱口而出造成的倒装</p>
+</li>
+<li>
+<p>写文章时，为使前后两个句子或两个段落紧密连接，有时把后句中的与前句意义紧密的句子成分提前</p>
+</li>
+</ol>
+<p>常见的倒装形式有如下几种：</p>
+<ol>
+<li>谓语提前，主语后置</li>
+</ol>
+<blockquote>
+<p><strong>何キロぐらいですか</strong>、時速は。是多少公里？时速。</p>
+</blockquote>
+<ol start="2">
+<li>谓语、补语提前，宾语后置</li>
+</ol>
+<blockquote>
+<p><strong>どこに書きますか</strong>、私の名前は。我的名字往哪儿写呢？</p>
+</blockquote>
+<ol start="3">
+<li>被修饰语提前，修饰语后置</li>
+</ol>
+<blockquote>
+<p><strong>月が出た</strong>、大きな。月亮出来了，大大的。</p>
+</blockquote>
+<ol start="4">
+<li>独立语中的接续语后置</li>
+</ol>
+<blockquote>
+<p><strong>困ったなる</strong>、しかし。真不好办呀，不过。</p>
+</blockquote>
+<ol start="5">
+<li>宾语提前</li>
+</ol>
+<blockquote>
+<p><strong>新しい技術を</strong>、我々はもっと学ばなければならない。<br />
+新技术，我们要进一步学习。</p>
+</blockquote>
+<ol start="6">
+<li>补语提前</li>
+</ol>
+<blockquote>
+<p><strong>根元で</strong>木はひどく傷んでいた。树的根部严重受伤。</p>
+</blockquote>
+<h3 id="8212-句子成分的省略"><a class="header" href="#8212-句子成分的省略">8.2.12-句子成分的省略</a></h3>
+<p>句子成分的省略指主语、谓语、宾语、补语的省略，而不涉及定语、状语等句子成分。</p>
+<p>常见的省略形式有如下几种：</p>
+<ol>
+<li>
+<p>承前省略和蒙后省略</p>
+</li>
+<li>
+<p>泛指省略，即叙述主体不是特指某人，而泛指一般人时，主语往往省略</p>
+</li>
+<li>
+<p>自述省略，即用第一人称叙述观点或感情时，主语往往省略</p>
+</li>
+<li>
+<p>对称省略，即表示祈使、商量、邀请、命令、号召等句子中，由于对象明确，主语往往省略</p>
+</li>
+</ol>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../日本語文法/02-基础语法体系/08-句法/8.1-句素.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../../日本語文法/02-基础语法体系/08-句法/8.3-复合句.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../日本語文法/02-基础语法体系/08-句法/8.1-句素.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../../日本語文法/02-基础语法体系/08-句法/8.3-复合句.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        <script type="text/javascript" src="../../../theme/sidebar.js"></script>
+
+
+    </body>
+</html>
